@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font: sans-serif;
+  background: white;
+}
+.content{
+  position: absolute;
+  background-color: #09b9dc;
+  opacity: 90%;
+  padding: 15px;
+  border-radius: 15px;
+}
+.top-display{
+  
+  margin-left: 9px;
+}
+.time-display{
+  font-size: 50px;
+  margin-left: 15px;
+}
+.controle-display{
+  margin-left: 43px;
+}
+button{
+  width: 45px;
+  height: 30px;
+  border-radius: 10%;
+  border-size: 15px;
+}
+input{
+  margin-top: 15px;
+  border-radius: 30px;
+  border-style: none;
+  border-size: 5px;
+  width: 195px;
+}
